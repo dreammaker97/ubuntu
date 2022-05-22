@@ -1,0 +1,8 @@
+version: "3"
+services:
+  x-ui:
+    container_name: ubuntu
+    image: ubuntu
+    ports:
+      - "4000:4000"
+    restart: always
